@@ -1,0 +1,12 @@
+.user-profile-btn {
+    /* width: 100px; */
+    background-color: red;
+}
+
+svg.iconify.iconify--bx.loggedState {
+    position: relative;
+    bottom: 2px;
+    margin-right:5px;
+    height:18px;
+    width: 18px;
+  }

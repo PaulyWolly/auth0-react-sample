@@ -1,0 +1,10 @@
+.navbar-container {
+    position: relative;
+    bottom: 0px;
+  }
+
+.container {
+  position: relative;
+  top: 50px;
+}
+

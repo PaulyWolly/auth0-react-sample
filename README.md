@@ -28,7 +28,6 @@ Your React application will redirect users to Auth0 whenever they trigger an aut
 
 As such, click on the "Settings" tab of your Auth0 Application page and fill in the following values:
 
-
 **Allowed Callback URLs**
 
 ```bash
@@ -174,5 +173,6 @@ npm start
 # auth0-react-sample
 # auth0-react-sample
 
+#
 
-###TO deploy - take the info in your .env file and hard code to you config file as .env files are not uploaded to GIT or deployments. 
+### TO deploy - take the info in your .env file and hard code to you config file as .env files are not uploaded to GIT or deployments. 

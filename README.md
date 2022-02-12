@@ -174,4 +174,5 @@ npm start
 # auth0-react-sample
 # auth0-react-sample
 
-TO deploy - take the info in your .env file and hard code to you config file as .env files are not uploaded to GIT or deployments. 
+
+###TO deploy - take the info in your .env file and hard code to you config file as .env files are not uploaded to GIT or deployments. 

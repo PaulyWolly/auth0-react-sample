@@ -32,19 +32,19 @@ As such, click on the "Settings" tab of your Auth0 Application page and fill in 
 **Allowed Callback URLs**
 
 ```bash
-http://localhost:4040
+http://localhost:4040 (or URL set through Auth0 portal)
 ```
 
 **Allowed Logout URLs**
 
 ```bash
-http://localhost:4040
+http://localhost:4040 (or URL set through Auth0 portal)
 ```
 
 **Allowed Web Origins**
 
 ```bash
-http://localhost:4040
+http://localhost:4040 (or URL set through Auth0 portal)
 ```
 
 **Scroll down and click the "Save Changes" button.**

@@ -8,7 +8,7 @@ const Hero = () => (
     <h1 className="mb-4">React Sample Project</h1>
     <p className="lead">
       This is a sample application that demonstrates an authentication flow for
-      an SPA, using{" "}
+      SPAs, using{" "}
       <a
         target="_blank"
         rel="noopener noreferrer"

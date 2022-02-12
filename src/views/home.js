@@ -5,8 +5,8 @@ import { Hero, HomeContent } from "../components";
 const Home = () => (
   <Fragment>
     <Hero />
-    <hr />
-    <HomeContent />
+    {/* <hr /> */}
+    {/* <HomeContent /> */}
   </Fragment>
 );
 

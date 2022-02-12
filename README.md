@@ -165,9 +165,9 @@ Now, **follow these steps to get the Auth0 Domain value**:
 > - The Auth0 Domain follows this pattern: `tenant-name.region.auth0.com`.
 > - The `region` subdomain (`au`, `us`, or `eu`) is optional. Some Auth0 Domains don't have it.
 
-With the `.env` configuration values set, run the API server by issuing the following command:
-
 ### TO deploy - take the info in your .env file and hard code to you config file as .env files are not uploaded to GIT or deployments. 
+
+With the `.env` configuration values set, run the API server by issuing the following command:
 
 ```bash
 npm start

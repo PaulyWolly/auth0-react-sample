@@ -138,7 +138,7 @@ Populate this `auth0-express-js-sample/.env` file as follows:
 
 ```bash
 SERVER_PORT=6060
-CLIENT_ORIGIN_URL=http://localhost:4040
+CLIENT_ORIGIN_URL=http://localhost:4040 (or URL set through Auth0 portal)
 AUTH0_AUDIENCE=
 AUTH0_DOMAIN=
 ```
@@ -173,3 +173,5 @@ npm start
 ```# my-auth0-react-sample
 # auth0-react-sample
 # auth0-react-sample
+
+TO deploy - take the info in your .env file and hard code to you config file as .env files are not uploaded to GIT or deployments. 

@@ -1,11 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-//import { Loading } from '../../components'
 import axios from 'axios'
 import PostList from '../../components/PostList/PostList';
+import LoadingAlt from './../../components/Loading-alt/LoadingAlt';
 
 import './Todos.css'
-import LoadingAlt from './../../components/Loading-alt/LoadingAlt';
 
 function Todos(props) {
 
@@ -21,7 +20,6 @@ function Todos(props) {
 
   return (
     <div className="todos-container">
-      {/* <Loading /> */}
       <LoadingAlt />
       {posts && <PostList posts={posts} />}
     </div>

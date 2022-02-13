@@ -1,5 +1,5 @@
 .todosContainer {
-  height: 600px;
+  max-height: 500px;
   overflow-y: scroll;
-  border-bottom: 1px solid rgb(199, 198, 198);
+  border-bottom: 2px solid rgb(170, 169, 169);
 }

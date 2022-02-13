@@ -1,0 +1,5 @@
+.todos-container {
+  max-height: 500px;
+  overflow-y: auto;
+  border-bottom: 1px solid rgb(216, 215, 215);
+}

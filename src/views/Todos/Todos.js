@@ -1,10 +1,11 @@
 import React from 'react'
-import classes from './Todos.module.css'
 import { useState, useEffect } from 'react'
-import { Loading } from '../../components'
+//import { Loading } from '../../components'
 import axios from 'axios'
 import PostList from '../../components/PostList/PostList';
-//import LoadingAlt from '../../components/Loading-alt/LoadingAlt';
+
+import './Todos.css'
+import LoadingAlt from './../../components/Loading-alt/LoadingAlt';
 
 function Todos(props) {
 
@@ -19,9 +20,9 @@ function Todos(props) {
   },[]) // [] only fires one time when the component load
 
   return (
-    <div className={classes.todosContainer}>
-      <Loading />
-      {/* <LoadingAlt /> */}
+    <div className="todos-container">
+      {/* <Loading /> */}
+      <LoadingAlt />
       {posts && <PostList posts={posts} />}
     </div>
   )

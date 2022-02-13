@@ -20,18 +20,18 @@ const Hero = () => (
         <p className="lead text-justify">
 
           <span className="text-center">This is a sample application that demonstrates an authentication flow for
-          SPAs, using Bootstrap for styling, <b>Auth0</b> for user authentication linked to multiple social media
-          platforms, &amp; built in {" "}</span>
+          SPAs, using Bootstrap for styling, <b>Auth0</b> for user authentication with links to multiple social media
+          login platforms... built in {" "}</span>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://auth0.com/docs/quickstart/spa/react"
           >
             React
-          </a>
+          </a>.
           <br/><br/>
-          <span>All menu links on this site are protected by <b>Auth0</b>.
-          Only authenticated uses can view content from the above links.</span>
+          <span>All menu links on this site are protected by <b>Auth0</b>...
+          so only authenticated uses can view content from the above links.</span>
           &nbsp;
           <span>I use tools such as Angular and React with Bootstrap and Material Design to create
           components that work well alone or in part with other components.

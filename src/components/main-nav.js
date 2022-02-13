@@ -30,6 +30,24 @@ const MainNav = () => (
       External API
     </NavLink>
 
+    <NavLink
+      to="/about"
+      exact
+      className="nav-link"
+      activeClassName="router-link-exact-active"
+    >
+      About
+    </NavLink>
+
+    <NavLink
+      to="/todos"
+      exact
+      className="nav-link"
+      activeClassName="router-link-exact-active"
+    >
+      API Call
+    </NavLink>
+
   </div>
 );
 

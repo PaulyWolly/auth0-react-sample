@@ -4,10 +4,11 @@ import { Route, Switch, Routes } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
 import { NavBar, Footer, Loading } from "./components";
-import { Home, Profile, ExternalApi } from "./views";
+import { Home, Profile, ExternalApi, About, ApiContent } from "./views";
 import ProtectedRoute from "./auth/protected-route";
 
 import "./app.css";
+import Todos from './views/Todos/Todos';
 
 const App = () => {
   const { isLoading } = useAuth0();
@@ -25,6 +26,8 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <ProtectedRoute path="/profile" component={Profile} />
+          <ProtectedRoute path="/about" component={About} />
+          <ProtectedRoute path="/todos" component={Todos} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
         </Switch>
       </div>

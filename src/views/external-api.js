@@ -3,7 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const ExternalApi = () => {
   const [message, setMessage] = useState("");
-  const serverUrl = process.env.REACT_APP_SERVER_URL;
+  const serverUrl = "https://pw-auth0-react-sample.netlify.app/";
 
   const { getAccessTokenSilently } = useAuth0();
 
@@ -53,9 +53,14 @@ const ExternalApi = () => {
         role="group"
         aria-label="External API Requests Examples"
       >
-        <button type="button" className="btn btn-primary" onClick={callApi}>
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={callApi}
+        >
           Get Public Message
         </button>&nbsp;&nbsp;
+
         <button
           type="button"
           className="btn btn-primary"
@@ -63,6 +68,7 @@ const ExternalApi = () => {
         >
           Get Protected Message
         </button>
+
       </div>
       {message && (
         <div className="mt-5">

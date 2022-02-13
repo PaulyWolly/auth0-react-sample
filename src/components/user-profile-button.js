@@ -20,7 +20,7 @@ const UserProfileButton = () => {
     >
         {/* <span class="loggedState iconify" data-icon="bx:bxs-user"></span>Profile */}
     {/* <span className="iconify" data-icon="mdi:login-variant"></span>  */}
-    <span class="loggedState iconify" data-icon="ant-design:user-outlined"></span>Profile
+    <span className="loggedState iconify" data-icon="ant-design:user-outlined"></span>Profile
     </button>
   );
 };

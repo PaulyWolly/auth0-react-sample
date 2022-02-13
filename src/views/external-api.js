@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { useAuth0 } from "@auth0/auth0-react";
+//import { useAuth0 } from "@auth0/auth0-react";
 import './external-api.css'
 
 const ExternalApi = () => {
   const [message, setMessage] = useState("");
-  const serverUrl = "https://pw-auth0-react-sample.netlify.app/";
+  //const serverUrl = "https://pw-auth0-react-sample.netlify.app/";
 
-  const { getAccessTokenSilently } = useAuth0();
+  //const { getAccessTokenSilently } = useAuth0();
 
   const callApi = async () => {
     try {

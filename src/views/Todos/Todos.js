@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
@@ -18,10 +19,29 @@ function Todos(props) {
     })
   },[]) // [] only fires one time when the component load
 
+  const onViewJSONHandler = (props) => {
+    window.open(`https://jsonplaceholder.typicode.com/posts`)
+  }
+
   return (
-    <div className="todos-container">
-      <LoadingAlt />
-      {posts && <PostList posts={posts} />}
+    <div className="posts-container">
+      <br />
+      <h3 className='todos-title-text'>This is a call to the JSONPlaceholder fake API <br/>
+      to show a call to a REST API doing a 'GET' request</h3>
+      <div className="btn-53">
+        <button
+          className="button-53 mt-3"
+          role="button"
+          onClick={onViewJSONHandler}
+        ><span className='button-text' >View JSON file</span>
+        </button>
+      </div>
+      <p>&nbsp;</p>
+      <div className="todos-container">
+        <LoadingAlt />
+        {posts && <PostList posts={posts} />}
+      </div>
+
     </div>
   )
 }

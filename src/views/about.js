@@ -1,4 +1,5 @@
 import PaulImg from './../assets/img/paul_sm.jpg'
+import './about.css'
 
 const About = () => {
 
@@ -17,23 +18,24 @@ const About = () => {
 
 
     return (
-      <div>
-        <div className="container col-xxl-8 px-4 py-5">
+      <div className='content-container'>
+        <div className="container mt-5 pr-4">
 
           <div className="row flex-lg-row-reverse align-items-center g-2 py-2">
-            <div className="col-lg-3"></div>
+            <div className="col-lg-4"></div>
 
-            <div className="col-10 col-sm-8 col-lg-2">
+            <div style={{position: 'relative', left: '20px', bottom: '15px'}} className="col-10 pr-2 col-sm-8 col-lg-2">
               <img src={PaulImg} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="200" loading="lazy" />
             </div>
 
             <div className="col-lg-6">
 
-              <h1 className="display-6 fw-bold lh-1 mb-3">A bit about me...</h1>
+              <h3 className="display-6 fw-bold lh-1 mb-3">A bit about me...</h3>
 
-              <p className="lead">My name is <strong>Paul</strong>, and I can quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular
+              <p className="lead">My name is <strong>Paul</strong>, and I can quickly design and customize responsive mobile-first components &amp; sites with Angular, React, Material Design and Bootstrap, the current most popular
               front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components,
-              powerful JavaScript plugins, and more.</p>
+              powerful JavaScript plugins, Firebase and MongoDB data management, Auth0 and Firebase authentication, and
+              more.</p>
 
               <p>&nbsp;</p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">

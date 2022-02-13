@@ -1,10 +1,7 @@
-.navbar-container {
-    position: relative;
-    bottom: 0px;
-  }
-
-.container {
-  position: relative;
-  top: 50px;
+.nav-links {
+  display: flex;
+  padding-top: 5px;
 }
+
+
 

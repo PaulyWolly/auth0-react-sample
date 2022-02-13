@@ -1,12 +1,21 @@
-footer.footer {
+footer {
   position: fixed;
   background-color: rgb(231, 236, 240) !important;
   width: 100%;
   max-height: 50px !important;
+  display: inline-flex;
 }
 
 div.logo {
   display: flex;
+  text-align: center;
+}
+p.footer-text {
+  display:flex;
+  text-align: center;
+  margin-right: auto;
+  padding-right: 110px;
+  margin-top: 10px;
 }
 
 div.footer-container {
@@ -16,4 +25,5 @@ div.footer-container {
 
 footer .logo {
   margin-top: 5px;
+  margin-right: 20px;
 }

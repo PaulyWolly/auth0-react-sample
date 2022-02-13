@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
 .background-img {
   /* background-image: url('./../assets/img/aerial-view.png'); */
   height: 100%;
@@ -24,8 +27,7 @@ h1.mb-4.app-title {
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
 }
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-
+/* Styles for title text and text shadow */
 h1.mb-4.app-title {
   margin: 40px auto;
   font-family: 'Ubuntu', sans-serif;
@@ -35,4 +37,19 @@ h1.mb-4.app-title {
   text-align: center;
   letter-spacing: 5px;
   text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

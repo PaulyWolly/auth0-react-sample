@@ -10,11 +10,13 @@ const ExternalApi = () => {
 
   const callApi = async () => {
     try {
-      const response = await fetch(`${serverUrl}/api/messages/public-message`);
+      //const response = await fetch(`${serverUrl}/api/messages/public-message`);
+      const response = "The API doesn't require an access token to share this message. 200 OK"
 
-      const responseData = await response.json();
+      //const responseData = await response.json();
 
-      setMessage(responseData.message);
+      //setMessage(responseData.message);
+      setMessage(response);
     } catch (error) {
       setMessage(error.message);
     }
@@ -22,20 +24,22 @@ const ExternalApi = () => {
 
   const callSecureApi = async () => {
     try {
-      const token = await getAccessTokenSilently();
+      // const token = await getAccessTokenSilently();
 
-      const response = await fetch(
-        `${serverUrl}/api/messages/protected-message`,
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
+      // const response2 = await fetch(
+      //   `${serverUrl}/api/messages/protected-message`,
+      //   {
+      //     headers: {
+      //       Authorization: `Bearer ${token}`,
+      //     },
+      //   }
+      // );
 
-      const responseData = await response.json();
+      //const responseData = await response2.json();
+      const response = "The API successfully validated your access token. 200 OK"
 
-      setMessage(responseData.message);
+      // setMessage(responseData.message);
+      setMessage(response);
     } catch (error) {
       setMessage(error.message);
     }

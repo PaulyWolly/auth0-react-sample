@@ -11,8 +11,12 @@ const Hero = () => (
 
     <div className="col-lg-10">
       <div className="text-center">
-        <img className="mb-3 app-logo" src={logo} alt="React logo" width="120" />
-        <h1 className="mb-4">React Auth0 Project</h1>
+
+        <div className="logoTitle">
+          <img className="mb-3 p-3 app-logo" src={logo} alt="React logo" width="120" />
+          <h1 className="mb-4 app-title">React / Auth0 - demo </h1>
+        </div>
+
         <p className="lead text-justify">
 
           <span className="text-center">This is a sample application that demonstrates an authentication flow for

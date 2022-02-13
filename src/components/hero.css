@@ -8,3 +8,17 @@ p.lead {
   font-size: 1.25rem;
   font-weight: 350;
 }
+
+.logoTitle {
+  display: flexbox;
+  text-align: center;
+}
+
+img.mb-3.app-logo {
+  display: flexbox;
+  text-align: center;
+}
+
+h1.mb-4.app-title {
+  display: inline-flex;
+}

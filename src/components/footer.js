@@ -1,10 +1,11 @@
 import React from "react";
+import './footer.css'
 
 const Footer = () => (
-  <footer className="footer bg-light p-2 text-center">
+  <footer className="footer p-2 text-center">
     <div className="logo" />
     <p>
-      Sample project provided by{" "}
+      Auth by {" "}
       <a target="_blank" rel="noopener noreferrer" href="https://auth0.com">
         Auth0
       </a>

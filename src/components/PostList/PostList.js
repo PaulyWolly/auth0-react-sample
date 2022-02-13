@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable no-undef */
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './PostList.css'
 
 const PostList = ({ posts }) => {
 

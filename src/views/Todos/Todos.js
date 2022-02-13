@@ -26,17 +26,23 @@ function Todos(props) {
   return (
     <div className="posts-container">
       <br />
-      <h3 className='todos-title-text'>This is a call to the JSONPlaceholder 'fake API' website <br/>
-      to show a response to a REST API call, doing a GET request</h3>
+      <h3 className='todos-title-text lead'>This page shows a call to the JSONPlaceholder 'fake' API website
+      which receives a response to a REST API <br/>call,
+      with a GET request using React Axios and the useEffect hook. Since the data is Asynchronous
+      I have <br/>configured a Bootstrap 'spinner' as well.</h3>
+
       <div className="btn-53">
+
         <button
           className="button-53 mt-3"
           role="button"
           onClick={onViewJSONHandler}
         ><span className='button-text' >View JSON file</span>
         </button>
+
       </div>
       <p>&nbsp;</p>
+
       <div className="todos-container">
         <LoadingAlt />
         {posts && <PostList posts={posts} />}

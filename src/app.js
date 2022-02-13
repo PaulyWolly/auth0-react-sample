@@ -7,8 +7,11 @@ import { NavBar, Footer, Loading } from "./components";
 import { Home, Profile, ExternalApi, About, ApiContent } from "./views";
 import ProtectedRoute from "./auth/protected-route";
 
-import "./app.css";
 import Todos from './views/Todos/Todos';
+import MyClock from './views/clock/MyClock';
+
+// styles
+import "./app.css";
 
 const App = () => {
   const { isLoading } = useAuth0();
@@ -29,6 +32,8 @@ const App = () => {
           <ProtectedRoute path="/about" component={About} />
           <ProtectedRoute path="/todos" component={Todos} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
+          <Route path="*" component={Home} />
+
         </Switch>
       </div>
       <div className="footer-container">

@@ -22,7 +22,7 @@
   text-decoration: none #000000 solid;
   text-decoration-thickness: auto;
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   position: relative;
   cursor: pointer;
   transform: rotate(-2deg);
@@ -60,10 +60,11 @@
 
 .todos-title-text {
   display: flex;
+  font-weight: 400;
 }
 
 button.button-53.mt-3 {
   position: absolute;
   right:200px;
-  top: 100px;
+  top: 90px;
 }

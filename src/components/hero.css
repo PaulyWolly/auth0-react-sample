@@ -1,0 +1,10 @@
+.background-img {
+  /* background-image: url('./../assets/img/aerial-view.png'); */
+  height: 100%;
+  width: 100%;
+}
+
+p.lead {
+  font-size: 1.25rem;
+  font-weight: 350;
+}

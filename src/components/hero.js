@@ -1,9 +1,12 @@
 import React from "react";
+import './hero.css'
+//import HomeContent from "./home-content";
 
 const logo = "https://cdn.auth0.com/blog/auth0-react-sample/assets/logo.png";
 
 const Hero = () => (
   <div className="row">
+
     <div className="col-lg-1"></div>
 
     <div className="col-lg-10">
@@ -29,11 +32,12 @@ const Hero = () => (
           <span>I use tools such as Angular and React with Bootstrap and Material Design to create
           components that work well alone or in part with other components.
           <br/><br/>
-          I use VS Code to do all my development work. I use Axure RP, Adobe XD and FIgma to do
+          I use VS Code to do all my development work. I use Axure RP, Adobe XD and Figma to do
           my wireframing, and interactive prototyping. I host all my sites within my Github repo
           and I use Netlify to manage my CI-CD (Continuous Integration and Continuous Deployment).</span>
         </p>
       </div>
+
     </div>
     <div className="col-lg-2"></div>
 

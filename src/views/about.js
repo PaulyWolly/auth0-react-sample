@@ -35,7 +35,7 @@ const About = () => {
               <p className="lead">My name is <strong>Paul</strong>, and I can quickly design and customize responsive mobile-first components &amp; sites with Angular, React, Material Design and Bootstrap, the current most popular
               front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components,
               powerful JavaScript plugins, Firebase and MongoDB data management, Auth0 and Firebase authentication, and
-              more.</p>
+              more...</p>
 
               <p>&nbsp;</p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">

@@ -26,8 +26,8 @@ function Todos(props) {
   return (
     <div className="posts-container">
       <br />
-      <h3 className='todos-title-text'>This is a call to the JSONPlaceholder fake API <br/>
-      to show a call to a REST API doing a 'GET' request</h3>
+      <h3 className='todos-title-text'>This is a call to the JSONPlaceholder 'fake API' website <br/>
+      to show a response to a REST API call, doing a GET request</h3>
       <div className="btn-53">
         <button
           className="button-53 mt-3"

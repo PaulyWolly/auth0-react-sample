@@ -14,7 +14,7 @@ function Todos(props) {
   useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/posts')
     .then((result) => {
-      console.table(result.data)
+      console.log(result.data)
       setPosts(result.data)
     })
   },[]) // [] only fires one time when the component load
@@ -23,16 +23,28 @@ function Todos(props) {
     window.open(`https://jsonplaceholder.typicode.com/posts`)
   }
 
+  const refreshTodos = () => {
+    // clear data
+    setPosts('')
+    axios.get('https://jsonplaceholder.typicode.com/posts')
+    .then((result) => {
+      console.log(result.data)
+      setPosts(result.data)
+    })
+  }
+
+
   return (
     <div className="posts-container">
       <br />
       <h3 className='todos-title-text lead'>This page shows a call to the JSONPlaceholder 'fake' API website
       which receives a response to a REST API <br/>call,
       with a GET request using React Axios and the useEffect hook. Since the data is Asynchronous
-      I have <br/>configured a Bootstrap 'spinner' as well.</h3>
+      I have <br/>configured a Bootstrap 'spinner' as well. Press 'Refresh Dataset' to see spinner.</h3>
 
       <div className="btn-53">
 
+        <button onClick={refreshTodos} className='btn-sm btn-success'>Refresh Dataset</button>
         <button
           className="button-53 mt-3"
           role="button"

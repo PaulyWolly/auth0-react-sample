@@ -2,6 +2,7 @@
 import React from "react";
 import { Route, Switch, Routes } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
+import { Redirect } from 'react-router-dom';
 
 import { NavBar, Footer, Loading } from "./components";
 import { Home, Profile, ExternalApi, About, ApiContent } from "./views";
@@ -32,7 +33,7 @@ const App = () => {
           <ProtectedRoute path="/about" component={About} />
           <ProtectedRoute path="/todos" component={Todos} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
-          <Route path="*" component={Home} />
+          <Route render={() => <Redirect to={{home: "/"}} />} />
 
         </Switch>
       </div>

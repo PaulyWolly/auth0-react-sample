@@ -1,7 +1,7 @@
 import React from 'react'
 import './Loading.css'
 
-const LoadingAlt = () => {
+const LoadingSpin = () => {
   return (
     <div className="d-flex justify-content-center">
       <div
@@ -13,4 +13,4 @@ const LoadingAlt = () => {
     </div>
   )
 }
-export default LoadingAlt
+export default LoadingSpin

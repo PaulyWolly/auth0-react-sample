@@ -2,8 +2,8 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import LoadingSpin from './../../components/Loading-spin/LoadingSpin';
 import PostList from '../../components/PostList/PostList';
-import LoadingAlt from './../../components/Loading-alt/LoadingAlt';
 
 import './Todos.css'
 
@@ -56,7 +56,7 @@ function Todos(props) {
       <p>&nbsp;</p>
 
       <div className="todos-container">
-        <LoadingAlt />
+        <LoadingSpin />
         {posts && <PostList posts={posts} />}
       </div>
 

@@ -19,7 +19,7 @@ function DemoUseEffect() {
         <button onClick={() => setResourceType('users')}>Users</button>
         <button onClick={() => setResourceType('comments')}>Comments</button>
       </div>
-    <h1>{resourceType}</h1>
+    <h2>{resourceType}</h2>
     <div className='useEffect'>
       {items && items.map(item => {
         return <p key={item.id}>{JSON.stringify(item)}</p>

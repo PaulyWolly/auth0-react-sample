@@ -50,6 +50,15 @@ const MainNav = () => (
         API Call
       </NavLink>
 
+      <NavLink
+        to="/demo"
+        exact
+        className="nav-link"
+        activeClassName="router-link-exact-active"
+      >
+        demos
+      </NavLink>
+
     </div>
   </div>
 );

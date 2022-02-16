@@ -10,6 +10,8 @@ import ProtectedRoute from "./auth/protected-route";
 
 import Todos from './views/Todos/Todos';
 import MyClock from './views/clock/MyClock';
+import HooksDemos from './views/WebDevSimplified/HooksDemos/HooksDemos';
+
 
 // styles
 import "./app.css";
@@ -29,6 +31,7 @@ const App = () => {
       <div className="container flex-grow-1">
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/demo" component={HooksDemos} />
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/about" component={About} />
           <ProtectedRoute path="/todos" component={Todos} />
@@ -37,6 +40,7 @@ const App = () => {
 
         </Switch>
       </div>
+
       <div className="footer-container">
         <Footer />
       </div>

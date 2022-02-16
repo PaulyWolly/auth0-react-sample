@@ -2,18 +2,18 @@ import React, { useState } from 'react'
 
 function DemoUseState() {
 
-  const [count, setCount] = useState('4')
+  const [count, setCount] = useState(4)
 
   const increment = () => {
-    return setCount(prevCount => prevCount +1)
+    return setCount(prevCount => prevCount + 1)
   }
 
   const decrement = () => {
-    return setCount(prevCount => prevCount -1)
+    return setCount(prevCount => prevCount - 1)
   }
 
   const resetCount = () => {
-    return setCount('4')
+    return setCount(4)
   }
 
   return (

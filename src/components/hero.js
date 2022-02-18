@@ -14,7 +14,7 @@ const Hero = () => (
 
         <div className="logoTitle">
           <img className="mb-3 p-3 app-logo" src={logo} alt="React logo" width="120" />
-          <h1 className="mb-4 app-title">React / Auth0 </h1>
+          <h1 className="mb-4 app-title">React &amp; Auth0 </h1>
         </div>
 
         <p className="lead text-justify">

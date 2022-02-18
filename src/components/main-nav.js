@@ -56,7 +56,7 @@ const MainNav = () => (
         className="nav-link"
         activeClassName="router-link-exact-active"
       >
-        demos
+        Hooks Demos
       </NavLink>
 
     </div>

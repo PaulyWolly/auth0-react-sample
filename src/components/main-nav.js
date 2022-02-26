@@ -3,12 +3,12 @@ import React from "react";
 import './main-nav.css'
 
 const MainNav = () => (
-  <div className="navbar-nav mr-auto">
+  <div className="navbar-nav">
     <div className="nav-links">
       <NavLink
         to="/"
         exact
-        className="nav-link"
+        className="nav-logo nav-link"
         activeClassName="router-link-exact-active"
       >
         Home

@@ -1,7 +1,19 @@
+.container {
+  max-width: 1330px !important;
+}
+
+.navbar-nav {
+  margin-left: 80px;
+}
+
 .nav-links {
   display: flex;
-  padding-top: 5px;
+  padding-top: 15px;
+  margin-left: 10px
 }
 
 
+.nav-links .nav-logo {
+  margin-left: 50px;
+}
 

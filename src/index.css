@@ -95,15 +95,20 @@ svg.iconify.iconify--ant-design.loggedState {
 
 a.nav-link.router-link-exact-active {
   position: relative;
-  left: 30px;
+  left: 40px;
 }
 
 div.navbar-nav {
   padding-left: 20px;
+  margin-left: 30px;
 }
 
 a.nav-link {
   position: relative;
-  left: 30px;
+  left: 40px;
 }
 
+div.navbar-brand.logo {
+  position: absolute;
+  margin-left: 50px !important;
+}

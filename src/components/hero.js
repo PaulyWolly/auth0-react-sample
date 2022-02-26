@@ -20,7 +20,7 @@ const Hero = () => (
         <p className="lead text-justify">
 
           <span className="text-center">This is a sample application that demonstrates an authentication flow for
-          SPAs, using Bootstrap for styling, <b>Auth0</b> for user authentication with links to multiple social media
+          SPAs, using <b>Bootstrap</b> for styling, <b>Auth0</b> for user authentication with links to multiple social media
           login platforms... built in <em><b>React</b></em>{" "}</span>
           {/* <a
             target="_blank"

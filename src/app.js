@@ -31,7 +31,7 @@ const App = () => {
       <div className="container flex-grow-1">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/demo" component={HooksDemos} />
+          <ProtectedRoute path="/demo" component={HooksDemos} />
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/about" component={About} />
           <ProtectedRoute path="/todos" component={Todos} />

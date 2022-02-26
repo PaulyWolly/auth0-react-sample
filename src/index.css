@@ -1,4 +1,3 @@
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 body {
   margin: 0;
@@ -85,6 +84,11 @@ svg.iconify.iconify--ant-design.loggedState {
   margin-right:5px;
   height:18px;
   width: 18px;
+}
+
+.navbar-container {
+  height: 25px !important;
+  margin-bottom: 50px;
 }
 
 .login-header img {

@@ -35,7 +35,7 @@ const About = () => {
               <p className="lead">My name is <strong>Paul Welby</strong>
 
               <br/> I am a UI Designer and Front-End Software/Web Developer. I can quickly design and customize 
-              responsive mobile-first components &amp; sites with Angular &amp; React. I style content for the web 
+              responsive mobile-first components &amp; sites with Angular and React. I style content for the web 
               using Material Design and Bootstrap v4 &amp; v5 - the current most popular front-end open source toolkit, featuring 
               Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript 
               plugins. Data sources I work with include Firebase and MongoDB for data management. I employ Auth0 and 

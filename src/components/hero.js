@@ -21,14 +21,14 @@ const Hero = () => (
 
           <span className="text-center">This is a sample application that demonstrates an authentication flow for
           SPAs, using Bootstrap for styling, <b>Auth0</b> for user authentication with links to multiple social media
-          login platforms... built in {" "}</span>
-          <a
+          login platforms... built in <em><b>React</b></em>{" "}</span>
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://auth0.com/docs/quickstart/spa/react"
           >
-            React
-          </a>.
+             */}
+          {/* </a>. */}
           <br/><br/>
           <span>All menu links on this site are protected by <b>Auth0</b>...
           so only authenticated uses can view content from the above links.</span>

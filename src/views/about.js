@@ -1,4 +1,4 @@
-import PaulImg from './../assets/img/paul_sm.jpg'
+import PaulImg from './../assets/img/2018-09-23-Paul.jpg'
 import './about.css'
 
 const About = () => {
@@ -25,17 +25,21 @@ const About = () => {
             <div className="col-lg-4"></div>
 
             <div style={{position: 'relative', left: '20px', bottom: '15px'}} className="col-10 pr-2 col-sm-8 col-lg-2">
-              <img src={PaulImg} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="200" loading="lazy" />
+              <img src={PaulImg} className="PaulImg d-block mx-lg-auto img-fluid" alt="PaulImg" width="300" height="200" loading="lazy" />
             </div>
 
             <div className="col-lg-6">
 
               <h3 className="display-6 fw-bold lh-1 mb-3">A bit about me...</h3>
 
-              <p className="lead">My name is <strong>Paul</strong>, and I can quickly design and customize responsive mobile-first components &amp; sites with Angular, React, Material Design and Bootstrap, the current most popular
-              front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components,
-              powerful JavaScript plugins, Firebase and MongoDB data management, Auth0 and Firebase authentication, and
-              more...</p>
+              <p className="lead">My name is <strong>Paul Welby</strong>
+
+              <br/> I am a UI Designer and Front-End Software/Web Developer. I can quickly design and customize 
+              responsive mobile-first components &amp; sites with Angular &amp; React. I style content for the web 
+              using Material Design and Bootstrap v4 &amp; v5 - the current most popular front-end open source toolkit, featuring 
+              Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript 
+              plugins. Data sources I work with include Firebase and MongoDB for data management. I employ Auth0 and 
+              Firebase for user authentication, and more...</p>
 
               <p>&nbsp;</p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">

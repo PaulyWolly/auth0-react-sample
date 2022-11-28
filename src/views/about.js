@@ -44,7 +44,7 @@ const About = () => {
               <p>&nbsp;</p>
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <button onClick={goToGithub} type="button" className="btn-sm btn-primary btn-lg px-3 me-md-2">My Github Repo</button>
-                <button onClick={downloadMyResume} type="button" className="btn-sm btn-success btn-lg px-4">Download my resume</button>
+                <button onClick={downloadMyResume} type="button" className="btn-sm btn-success btn-lg px-4">View/Download my resume</button>
               </div>
             </div>
 

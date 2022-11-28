@@ -12,7 +12,8 @@ const About = () => {
 
   const downloadMyResume = () => {
     window.open(
-      "https://www.dropbox.com/s/gdva72dl55ydw7n/%2B%2B%2BPaul_Welby_Resume_GitHub_REST_2-3-22.docx?dl=0"
+      // "https://www.dropbox.com/s/gdva72dl55ydw7n/%2B%2B%2B+++Paul_Welby_Resume_GitHub_REST_11-2-22.docx?dl=0"
+      "https://www.dropbox.com/scl/fi/nbfypoqcp5vp9rx4x63sb/Paul_Welby_Resume_GitHub_REST_11-22-22.docx?dl=0&rlkey=s7k18jfov5upwincqtko8dn9n"
     );
   }
 
@@ -38,7 +39,7 @@ const About = () => {
               responsive mobile-first components &amp; sites with Angular and React. I style content for the web 
               using Material Design and Bootstrap v4 &amp; v5 - the current most popular front-end open source toolkit, featuring 
               Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript 
-              plugins. Data sources I work with include Firebase and MongoDB for data management. I employ Auth0 and 
+              plugins. Data sources I work with include MS SQL, MySQL, Oracle, and NoSQL DBs such as Firebase and MongoDB for data management. I employ Auth0 and 
               Firebase for user authentication, and more...</p>
 
               <p>&nbsp;</p>

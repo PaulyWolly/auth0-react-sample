@@ -13,7 +13,7 @@ const About = () => {
   const downloadMyResume = () => {
     window.open(
       // "https://www.dropbox.com/s/gdva72dl55ydw7n/%2B%2B%2B+++Paul_Welby_Resume_GitHub_REST_11-2-22.docx?dl=0"
-      "https://www.dropbox.com/scl/fi/nbfypoqcp5vp9rx4x63sb/Paul_Welby_Resume_GitHub_REST_11-22-22.docx?dl=0&rlkey=s7k18jfov5upwincqtko8dn9n"
+      "https://www.dropbox.com/s/gi3wkm1puvqi0it/%2B%2B%2BPaul_Welby_Resume_GitHub_REST_11-22-22.docx?dl=0"
     );
   }
 

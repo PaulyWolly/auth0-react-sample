@@ -8,7 +8,9 @@ import { NavBar, Footer, Loading } from "./components";
 import { Home, Profile, ExternalApi, About, ApiContent } from "./views";
 import ProtectedRoute from "./auth/protected-route";
 
-import Todos from './views/Todos/Todos';
+import Posts from './views/Posts/Posts';
+import Photos from './views/Photos/Photos';
+
 import MyClock from './views/clock/MyClock';
 import HooksDemos from './views/WebDevSimplified/HooksDemos/HooksDemos';
 
@@ -34,7 +36,8 @@ const App = () => {
           <ProtectedRoute path="/demo" component={HooksDemos} />
           <ProtectedRoute path="/profile" component={Profile} />
           <ProtectedRoute path="/about" component={About} />
-          <ProtectedRoute path="/todos" component={Todos} />
+          <ProtectedRoute path="/photos" component={Photos} />
+          <ProtectedRoute path="/posts" component={Posts} />
           <ProtectedRoute path="/external-api" component={ExternalApi} />
           <Route render={() => <Redirect to={{home: "/"}} />} />
 

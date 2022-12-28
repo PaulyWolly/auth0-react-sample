@@ -42,12 +42,21 @@ const MainNav = () => (
       </NavLink>
 
       <NavLink
-        to="/todos"
+        to="/photos"
         exact
         className="nav-link"
         activeClassName="router-link-exact-active"
       >
-        API Call
+        API Call (Photos)
+      </NavLink>
+
+      <NavLink
+        to="/posts"
+        exact
+        className="nav-link"
+        activeClassName="router-link-exact-active"
+      >
+        API Call (Posts)
       </NavLink>
 
       <NavLink

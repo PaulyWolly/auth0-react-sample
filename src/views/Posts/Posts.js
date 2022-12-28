@@ -2,10 +2,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import LoadingSpin from './../../components/Loading-spin/LoadingSpin';
+import LoadingSpin from '../../components/Loading-spin/LoadingSpin';
 import PostList from '../../components/PostList/PostList';
 
-import './Todos.css'
+import './Posts.css'
 
 function Todos(props) {
 
@@ -37,21 +37,20 @@ function Todos(props) {
   return (
     <div className="posts-container">
       <br />
-      <h3 className='todos-title-text lead'>This page shows a call to the JSONPlaceholder 'fake' API website
-      which receives a response to a REST API <br/>call,
-      with a GET request using React Axios and the useEffect hook. Since the data is Asynchronous
-      I have <br/>configured a Bootstrap 'spinner' as well. Press 'Refresh Dataset' to see spinner.</h3>
-      <button className='refresh-btn btn-sm btn-success' onClick={refreshTodos} >Refresh Dataset</button>
+      <h3 className='todos-title-text lead'>This page shows a call to the JSONPlaceholder 'fake' API website which receives a response to a REST API <br/>call,
+      with a GET request using React Axios and the useEffect hook. Since the data is Asynchronous I have <br/>configured a Bootstrap 'spinner' as well. Press 'Refresh Dataset' to see spinner.</h3>
+
+      <button className='refresh-btn btn-sm btn-success' onClick={refreshTodos} >Call/Refresh (Posts) Dataset</button>
 
       <div className="btn-53">
         <button
           className="button-53 mt-3"
           role="button"
           onClick={onViewJSONHandler}
-        ><span className='button-text' >View JSON file</span>
+        ><span className='button-text' >View (Posts) JSON file</span>
         </button>
-
       </div>
+
       <p>&nbsp;</p>
 
       <div className="todos-container">

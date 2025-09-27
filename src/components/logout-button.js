@@ -7,11 +7,12 @@ const LogoutButton = () => {
     <button
       className="btn-sm btn-danger"
       onClick={() =>
-        logout({
-          returnTo: window.location.origin,
-        })
+        logout({ returnTo: window.location.origin, })
       }
-    ><span className="loggedState iconify" data-icon="mdi:logout-variant"></span>
+    ><span
+      className="loggedState iconify"
+      data-icon="mdi:logout-variant"
+    ></span>
       Log Out
     </button>
   );

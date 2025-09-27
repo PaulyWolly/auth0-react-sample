@@ -1,0 +1,14 @@
+div.content-container {
+  position: absolute;
+  left: 275px;
+}
+
+.PaulImg {
+  position: relative;
+  top:5px;
+  width: 500px;
+  box-shadow: rgb(35, 57, 77) 0px 10px 30px -6px;
+  border: 2px solid #fff;
+  border-radius: 49%;
+
+}

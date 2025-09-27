@@ -1,0 +1,38 @@
+footer {
+  position: fixed;
+  background-color: rgb(231, 236, 240) !important;
+  width: 100%;
+  max-height: 40px !important;
+  display: inline-flex;
+}
+
+div.logo {
+  display: flex;
+  text-align: center;
+}
+p.footer-text {
+  display:flex;
+  text-align: center;
+  margin-right: auto;
+  padding-right: 110px;
+  margin-top: 10px;
+}
+
+div.footer-container {
+  height: 70px;
+}
+
+footer .logo {
+  margin-top: 5px;
+  margin-right: 30px;
+}
+
+.clock {
+  margin-top: 12px;
+  margin-right: 20px;;
+}
+
+footer .logo, p.footer-text {
+  position: relative;
+  left: 110px !important;
+}

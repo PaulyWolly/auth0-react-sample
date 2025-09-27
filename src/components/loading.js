@@ -4,7 +4,7 @@ const loadingImg =
 
 const Loading = () => (
   <div className="spinner">
-    <img src={loadingImg} alt="Loading..." />
+    <img style={{width: '400px', height: '400px'}} src={loadingImg} alt="Loading..." />
   </div>
 );
 
